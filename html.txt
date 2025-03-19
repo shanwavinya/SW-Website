@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plug Full Circle Virtual Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background: white; color: #2E8B57; }
+        header { background: #2E8B57; color: white; padding: 20px; font-size: 24px; }
+        section { padding: 20px; }
+        .services, .pricing, .testimonials { display: flex; flex-wrap: wrap; justify-content: center; }
+        .service, .package, .testimonial { background: #D1E8E2; margin: 10px; padding: 15px; border-radius: 5px; width: 250px; }
+        .contact { background: #A7C7A7; padding: 20px; }
+        footer { background: #2E8B57; color: white; padding: 10px; }
+        a { color: #2E8B57; text-decoration: none; }
+        button { background: #2E8B57; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #3CB371; }
+    </style>
+</head>
+<body>
+    <header>
+        Plug Full Circle Virtual Services
+    </header>
+    <section>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">Inbox Management</div>
+            <div class="service">Calendar & Appointment Booking</div>
+            <div class="service">Social Media Management</div>
+            <div class="service">Research Assistance</div>
+            <div class="service">Customer Support</div>
+            <div class="service">Operational & Admin Support</div>
+            <div class="service">Tech Integrations</div>
+        </div>
+    </section>
+    <section>
+        <h2>Pricing</h2>
+        <div class="pricing">
+            <div class="package">
+                <h3>Essential Support</h3>
+                <p>20 hours per month</p>
+                <p>USD 500</p>
+                <p>✔ Inbox Management</p>
+                <p>✔ Calendar Scheduling</p>
+                <p>✔ Social Media Scheduling (up to 2 platforms)</p>
+                <p>✔ Data Entry</p>
+            </div>
+            <div class="package">
+                <h3>Growth & Efficiency Support</h3>
+                <p>30 hours per month</p>
+                <p>USD 720</p>
+                <p>✔ All services in Essential Support</p>
+                <p>✔ Research including travel and booking</p>
+                <p>✔ Customer Support</p>
+                <p>✔ Fliers and Posters Graphic Creation</p>
+            </div>
+            <div class="package">
+                <h3>Full Business Support</h3>
+                <p>40 hours per month</p>
+                <p>USD 920</p>
+                <p>✔ All services in Growth & Efficiency Support</p>
+                <p>✔ Tech Integrations of tools such as Trello, Notion, Zapier, and more</p>
+                <p>✔ Webinar and Live Workshop Assistance</p>
+                <p>✔ High-Level Administrative Tasks</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Testimonials</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Plug Full Circle has transformed the way I manage my business. Their support is top-notch!"</p>
+                <p>- Jane D.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Exceptional service! Their attention to detail and professionalism are unmatched."</p>
+                <p>- Mark T.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Highly recommend their services. They’ve helped me streamline my operations seamlessly."</p>
+                <p>- Lisa K.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:swavinya@plugfullcircle.com">swavinya@plugfullcircle.com</a></p>
+        <p>Phone: <a href="tel:+254724900209">+254 724 900209</a></p>
+        <form action="YOUR_FORM_ID" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="organization">Organization:</label>
+            <input type="text" id="organization" name="organization" required><br>
+            <button type="submit">Submit</button>
+        </form>
+        <p>Follow us on <a href="https://www.facebook.com/profile.php?id=61573985175767" target="_blank">Facebook</a></p>
+    </section>
+    <section>
+        <h2>Book a Free Discovery Call Today</h2>
+        <button onclick="window.location.href='mailto:swavinya@plugfullcircle.com'">Get Started</button>
+    </section>
+    <footer>
+        &copy; 2025 Plug Full Circle Virtual Services. All rights reserved.
+    </footer>
+</body>
+</html>
